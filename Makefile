@@ -1,4 +1,4 @@
-DB_BUILD = deps/db-6.0.20/build_unix
+DB_BUILD = deps/db-4.8.30.NC/build_unix
 
 all: build_db
 	node-gyp build
@@ -9,7 +9,7 @@ clean:
 
 config:
 	mkdir -p $(DB_BUILD)
-	TOP=`pwd` && cd $(DB_BUILD) && ../dist/configure --enable-debug --prefix=$$TOP #--disable-shared 
+	TOP=`pwd` && cd $(DB_BUILD) && ../dist/configure --enable-debug --prefix=$$TOP
 	node-gyp configure
 
 build_db:

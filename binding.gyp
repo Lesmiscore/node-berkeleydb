@@ -12,13 +12,13 @@
       "include_dirs": [
         "../include",
         "<!(node -e \"require('nan')\")",
-        "./deps/db-6.0.20/build_unix"
+        "./deps/db-4.8.30.NC/build_unix"
       ],
       "link_settings": {
         "libraries": [
           "-L../lib",
-          "-L../deps/db-6.0.20/build_unix",
-          "-ldb-6.0"
+          "-L../deps/db-4.8.30.NC/build_unix",
+          "-ldb-4.8"
         ]
       }
     }
