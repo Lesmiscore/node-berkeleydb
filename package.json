@@ -1,12 +1,12 @@
 {
-  "name": "berkeleydb",
+  "name": "bdb4.8",
   "version": "0.2.1",
   "description": "Node.js bindings for Berkeley DB 6.x (based on dbstore by Lee Iverson)",
   "author": "Gene Hallman",
-  "homepage": "http://github.com/genehallman/node-berkeleydb",
+  "homepage": "http://github.com/nao20010128nao/node-berkeleydb",
   "repository": {
     "type": "git",
-    "url": "https://github.com/genehallman/node-berkeleydb.git"
+    "url": "https://github.com/nao20010128nao/node-berkeleydb.git"
   },
   "engines": {
     "node": ">= 0.8.0"
